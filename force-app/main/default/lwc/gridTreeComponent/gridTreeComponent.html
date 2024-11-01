@@ -1,0 +1,15 @@
+
+    <template>
+        <lightning-card title="Tree Grid Component" icon-name="standard:account">
+            <lightning-input label="Enter Name" onchange={hndname} ></lightning-input><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <lightning-button label="Submit" variant="brand" onclick={submithandle}></lightning-button><br/><br/>
+            <b>Length oF Records : lenghthrecords</b><br/>
+    
+            <lightning-tree-grid data={griddata}
+                                 columns={gridclms}
+                                 key-field="Id"
+                                 onrowselection={selectionrows}>
+    
+            </lightning-tree-grid>
+        </lightning-card>
+    </template>

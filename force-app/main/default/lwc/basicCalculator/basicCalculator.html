@@ -1,0 +1,15 @@
+<template>
+    <div class="myclass">
+    <lightning-card title="Calulator" icon-name="standard:account">
+       <lightning-input label="Enter FirstName" placeholder="Enter FirstName" onchange={fname}></lightning-input>
+       <lightning-input label="Enter SecondName" placeholder="Enter SecondName" onchange={sname}></lightning-input>
+       <lightning-input label="See Result" placeholder="Result" value={Result}></lightning-input><br/>
+       
+        <lightning-button label="Addition" variant="brand" onclick={addbtn}></lightning-button>&nbsp;&nbsp;
+        <lightning-button label="Subtraction" variant="brand" onclick={subbtn}></lightning-button>&nbsp;&nbsp;
+        <lightning-button label="Multiplication" variant="brand" onclick={mulbtn}></lightning-button>&nbsp;&nbsp;
+        <lightning-button label="Division" variant="brand" onclick={divbtn}></lightning-button>
+        
+    </lightning-card> 
+ </div>  
+</template>  

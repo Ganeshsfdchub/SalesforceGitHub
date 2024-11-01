@@ -1,0 +1,31 @@
+<template>
+    <div class="myclass">
+    <lightning-card  icon-name="standard:account">
+
+        <div slot="title">
+            <b>Srinivas Component</b><br/> 
+            <b>Srinivas Details</b>    
+        </div>
+
+        <div slot="actions">
+            <b>Ganesh Component</b><br/> 
+            <b>Ganesh  Details</b>    
+        </div>
+        
+        <div slot="footer">
+            <b>Kalyan Component</b><br/>  
+            <b>Kalyan  Details</b>    
+        </div>
+
+        <div class="slds-grid slds-wrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+         <lightning-input label="Enter FirstName" onchange={hndlefname}></lightning-input>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+         <lightning-input label="Enter LastName" onchange={hndlelname} ></lightning-input>
+        </div><br/><br/>
+        <p align="center">
+         <lightning-button label="submit" variant="brand" onclick={submtbtn}></lightning-button>
+        </p>
+
+
+    </lightning-card>
+ </div>
+</template>

@@ -1,0 +1,12 @@
+<template>
+    <lightning-card title="LMS LWC to VF Component" icon-name="standard:account">
+        <lightning-input label="Enter Message" onchange={hnadlechange}></lightning-input><br/><br/>
+        <lightning-button label="Publish" variant="brand" onclick={PublishMC}></lightning-button>&nbsp;&nbsp;
+        <lightning-button label="Subcribe" variant="brand" onclick={SubcribeMC}></lightning-button>&nbsp;&nbsp;
+        <lightning-button label="UnSubcribe" variant="brand" onclick={unSubcribeMC}></lightning-button><br/><br/><br/>
+
+        <b>Received Message :</b>
+        <lightning-formatted-text value={ReceivedMessage}></lightning-formatted-text>
+
+    </lightning-card>
+</template>

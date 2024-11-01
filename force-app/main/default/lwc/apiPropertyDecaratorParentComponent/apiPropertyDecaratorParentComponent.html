@@ -1,0 +1,13 @@
+<template>
+    <div>
+        <lightning-card title="API Decarator Parent Component" icon-name="stadard:account">
+            
+          <lightning-input label="Enter Your Text" onchange={handltxt}></lightning-input><br/>
+          <lightning-button label="Submit" variant="brand" onclick={hndbutn}></lightning-button>
+
+             <div>
+                <c-api-decarator-child-component my-property={txtbutnproperty} ></c-api-decarator-child-component>
+             </div>
+        </lightning-card>
+    </div>
+</template>

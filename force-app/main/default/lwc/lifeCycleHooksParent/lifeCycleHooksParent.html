@@ -1,0 +1,14 @@
+<template>
+    <lightning-card title="Parent Component" icon-name="standard:account">
+      
+      <p align="center">
+      <lightning-button label="Show Details" variant="brand" onclick={hanlhook}></lightning-button>
+      <!-- <lightning-input label="Show Details" type="checkbox" onchange={hanlhook}></lightning-input>--><br/><br/>
+     </p>
+
+      <template if:true={myvarible}>
+        <c-life-cycle-hooks-child></c-life-cycle-hooks-child>
+      </template>
+      
+   </lightning-card>
+</template>

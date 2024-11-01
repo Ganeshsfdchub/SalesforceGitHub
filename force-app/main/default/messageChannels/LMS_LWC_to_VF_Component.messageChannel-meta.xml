@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningMessageChannel> xmlns="http://soap.sforce.com/2006/04/metadata">
+   
+    <masterLabel>LMS_LWC_to_VF_Component</masterLabel>
+    <isExposed>true</isExposed>
+    <description>Lightning Message Service</description>
+
+     <lightningMessageFields>
+        <fieldName>Message_To_Send</fieldName>
+        <description>Sending Messages</description>
+     </lightningMessageFields>
+
+     <lightningMessageFields>
+      <fieldName>Source_System</fieldName>
+      <description>My Source!</description>
+     </lightningMessageFields>
+
+     <lightningMessageFields>
+        <fieldName>Mobile_Number</fieldName>
+        <description>Emp Mobile Number!</description>
+       </lightningMessageFields>
+    
+</LightningMessageChannel>
