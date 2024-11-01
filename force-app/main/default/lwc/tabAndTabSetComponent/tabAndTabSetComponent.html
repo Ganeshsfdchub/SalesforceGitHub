@@ -1,0 +1,27 @@
+<template>
+    <lightning-card title="All Tabs" icon-name="standard:orders">
+         
+        <lightning-tabset variant="default" active-tab-value="idvalue">
+
+                <lightning-tab label="First Tab" icon-name="standard:account" value="idvalue">
+
+                </lightning-tab>
+
+                <lightning-tab label="Second Tab" icon-name="standard:contact">
+
+                </lightning-tab>
+
+                <lightning-tab label="Third Tab" icon-name="standard:case">
+                          <lightning-input label="Enter Name"></lightning-input>
+                          <lightning-input label="Phone"></lightning-input>
+                          <lightning-input label="Fax"></lightning-input>
+                          <lightning-input label="Bank Name"></lightning-input><br/>
+                          <p align="center">
+                             <lightning-button label="Save Details" variant="brand"></lightning-button>
+                          </p>
+                </lightning-tab>
+
+
+        </lightning-tabset>
+    </lightning-card>
+</template>

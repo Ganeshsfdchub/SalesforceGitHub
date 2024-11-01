@@ -3,6 +3,7 @@ import { LightningElement, track } from 'lwc';
 export default class TrackMethodDecaratorComponent extends LightningElement 
 {
    @track inputvarible;
+   @track myvariable;
 
     handleinput(event)
     {
@@ -10,9 +11,9 @@ export default class TrackMethodDecaratorComponent extends LightningElement
     }
     hndlebutn()
     {
-        var smsmge = this.template.querySelector('lightning-input').value;
-        var msgnames = {'firstname':'Ganesh', 'lastname':'Chinthakindi'};
-        smsmge.showmessage(msgnames);;
+        var smsmge = this.template.querySelector('lightning-input');
+        var input = {'Name':this.inputvarible}     
+        smsmge.showmessage(input);
     }
 
 

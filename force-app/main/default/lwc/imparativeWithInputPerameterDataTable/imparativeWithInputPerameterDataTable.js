@@ -5,6 +5,7 @@ export default class ImparativeWithInputPerameterDataTable extends LightningElem
    @track namevariable;
    @track resultvarible;
    @track lengthvarible;
+   
    @track clms =  [{label:'Account Name',fieldName:'Name', type:'text'},
                    {label:'Account Rating',fieldName:'Rating', type:'text'},
                    {label:'Account Industry',fieldName:'Industry', type:'text'},

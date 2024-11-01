@@ -1,0 +1,14 @@
+<template>
+    <lightning-card title="Imparative" icon-name="standard:account">
+
+    <lightning-input label="Enter text" onchange={hndlchnge}></lightning-input>
+    <lightning-button label="Submit" variant="brand" onclick={hnlbtn}></lightning-button><br/><br/>
+
+    <lightning-datatable data={myrsult}
+                          columns={clm}
+                          key-field="Id">
+
+    </lightning-datatable>
+
+    </lightning-card>
+</template>

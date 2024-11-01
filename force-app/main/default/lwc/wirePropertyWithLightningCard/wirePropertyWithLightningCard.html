@@ -1,0 +1,20 @@
+<template>
+    <template if:true={WireProperty} for:each={WireProperty.data} for:item="acc">
+      <lightning-card  icon-name="standard:account" key={acc.id}>
+            <div slot="title">
+               <h2>Account</h2>
+              <b><p>{acc.Name}</p></b>
+            </div>
+
+             <P>Account Name---------{acc.Name}</P>
+             <P>Account Industry---------{acc.Industry}</P>
+             <P>Account Rating---------{acc.Rating}</P>
+             <P>Account Phone---------{acc.Phone}</P>
+             <P>Account Fax---------{acc.Fax}</P>
+             <P>Account AnnualRevenue---------{acc.AnnualRevenue}</P>
+             <P>Account Active---------{acc.Active__c}</P>
+
+     </lightning-card>
+  </template>
+</template>
+
